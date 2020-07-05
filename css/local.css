@@ -1,0 +1,13 @@
+#signin,
+#login {
+    color: #2196f3;
+}
+
+#signin:hover,
+#login:hover {
+    color: aliceblue;
+}
+
+tab:active {
+    background-color: yellow;
+}
