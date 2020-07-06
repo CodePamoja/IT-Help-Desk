@@ -44,17 +44,17 @@ tab:active {
     text-align: left;
 }
 
-::-webkit-input-placeholder,
-:-ms-input-placeholder {
+::-webkit-input-placeholder {
     /* Edge */
     color: #666666;
 }
 
 .search_box {
-    background-image: url("../images/search-512.png");
+    /*background-image: url("../images/search-512.png");
     background-size: 24px;
     background-repeat: no-repeat;
-    background-position: right;
+     background-position: right;
+    */
     color: black;
     font-weight: bold;
     text-decoration-color: black;
