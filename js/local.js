@@ -1,22 +1,17 @@
 var nav_con = document.querySelector(".nav-con");
 var mytab = document.querySelectorAll(".tabone");
+var btn_create_an_account_opener = document.querySelector("#create_an_account");
+var btn_login_page_opener = document.querySelector("#login_page_opener");
+var page_signIn = document.querySelector(".signin");
+var page_signup = document.querySelector(".signup");
 
-mytab.forEach(element => {
+btn_create_an_account_opener.addEventListener("click", () => {
+    page_signIn.classList.add("hide");
+    page_signup.classList.remove("hide");
 
-    element.addEventListener("click", () => {
+});
+btn_login_page_opener.addEventListener("click", () => {
+    page_signIn.classList.remove("hide");
+    page_signup.classList.add("hide");
 
-        console.log(element.className);
-        var x = document.getElementsByClassName("" + element.className).parentNode;
-        console.log(x);
-        /*if (element.getAttribute("href") == "#getsupport") {
-            // nav_con.classList.add("myfixednavheight");
-            nav_con.classList.remove("navbar-fixed");
-            console.log(nav_con.className);
-
-        } else {
-            nav_con.classList.add("navbar-fixed");
-
-        }*/
-
-    });
 });
