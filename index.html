@@ -65,7 +65,7 @@
         </div>
 
         <!--  Home html and everything will be done here-->
-        <div id="home" class="col s12 m12 l12 xl12 red">
+        <div id="home" class="col s12 m12 l12 xl12">
 
 
             <div class="row" id="parallax">
