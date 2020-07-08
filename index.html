@@ -28,7 +28,7 @@
 
         <div class="col xl12 l12 m12 s12 no-padding">
 
-            <div class="navbar-fixed">
+            <div class="navbar-fixed nav-con">
 
 
                 <nav class="nav-extended white">
@@ -44,23 +44,24 @@
                     <div class="nav-content white" style="margin-top: 5px;">
                         <ul class="tabs tabs-transparent" style="padding-left: 10px;padding-top: 10px;">
 
-                            <li class="tab"><a class="blue-text" href="#home">Home</a></li>
-                            <li class="tab"><a class="blue-text" href="#getsupport">Get Support Now</a></li>
+                            <li class="tab"><a class="blue-text tabone" href="#home">Home</a></li>
+                            <li class="tab"><a class="blue-text tabone getsupport" href="#getsupport">Get Support Now</a></li>
 
-                            <li class="tab"><a class="blue-text" href="#supportplans">Support Plans</a></li>
+                            <li class="tab"><a class="blue-text tabone" href="#supportplans">Support Plans</a></li>
 
-                            <li class="tab"><a class="blue-text" href="#Login">Login</a></li>
+                            <li class="tab"><a class="blue-text tabone" href="#Login">Login</a></li>
                         </ul>
                     </div>
                 </nav>
+
+                <ul class="sidenav" id="mobile-demo">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">JavaScript</a></li>
+                </ul>
             </div>
 
 
-            <ul class="sidenav" id="mobile-demo">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
-            </ul>
             <!--  Home html and everything will be done here-->
             <div id="home" class="col s12 m12 l12 xl12">
 
@@ -241,13 +242,13 @@
 
                     </div>
 
-                    <div class="col xl8 l8 m8 white" style="height: 400px;">
+                    <div class="col xl7 l7 m7 white" style="height: 400px;">
                         <h4 class="center"> Who Are We</h4>
                         <p class="center">Our approach to business enables us to design innovative solutions with a commitment to results and customer satisfaction. We are Technology experts backed with vast experience and more than 15 years’ experience in managing IT
                             projects. Our expertise draw on our core values of simplicity, creativity, independence, respect and openness to transform the latest technology into added-value services, enabling our customers realize real business value
                             of their IT investment that includes achieving and maintaining competitive advantage, strengthening their market and revenue position and deliver support in solving business needs and challenges</p>
                     </div>
-                    <div class="col xl4 l4 m4 s12 white" style="height: 400px;">
+                    <div class="col xl5 l5 m5 s12 white" style="height: 400px;margin-bottom: 50px;">
 
                         <div class="row ">
                             <form class="col s12">
@@ -268,7 +269,7 @@
                             </form>
                         </div>
                     </div>
-                    <h4 class="center white-text">Our partners</h4>
+                    <h4 class="center white-text" style="margin-bottom: 30px;">Our partners</h4>
 
                     <div class="col s12 white">
 
@@ -278,13 +279,13 @@
                             <div class="row">
 
 
-                                <div class=" col xl3 l3 m3 s12 ">
+                                <div class=" col xl4 l4 m4 s12 ">
                                     <img class="responsive-img" src="https://www.dewcis.com/wp-content/uploads/theme-media/Home/Logos/logo-travelport-developer-network.png" />
                                 </div>
-                                <div class="col xl3 l3 m3 s12 offset-xl1 offset-l1">
+                                <div class="col xl4 l4 m4 s12 ">
                                     <img class="responsive-img" src="https://www.dewcis.com/wp-content/uploads/theme-media/Home/Logos/logo-codepamoja.png" />
                                 </div>
-                                <div class=" col xl3 l3 m3 s12 offset-xl1 offset-l1">
+                                <div class=" col xl4 l4 m4 s12 ">
                                     <img class="responsive-img" src="https://www.dewcis.com/wp-content/uploads/theme-media/Home/Logos/logo-huawei.png" />
                                 </div>
 
@@ -317,7 +318,27 @@
             <!--  End of home-->
 
             <!--  Get Support html and everything will be done here-->
-            <div id="getsupport" class="col s12">Get Support</div>
+            <div id="getsupport" class="col s12 carousel carousel-slider center red" style="height: 80vh;">
+                <div class="carousel-fixed-item center">
+                    <a class="btn waves-effect white grey-text darken-text-2">Create a ticket</a>
+                </div>
+                <div class="carousel-item red white-text" href="#one!">
+                    <h2>Need personal Help ?</h2>
+                    <p class="white-text">.......</p>
+                </div>
+                <div class="carousel-item amber white-text" href="#two!">
+                    <h2>Second Panel</h2>
+                    <p class="white-text">This is your second panel</p>
+                </div>
+                <div class="carousel-item green white-text" href="#three!">
+                    <h2>Third Panel</h2>
+                    <p class="white-text">This is your third panel</p>
+                </div>
+                <div class="carousel-item blue white-text" href="#four!">
+                    <h2>Fourth Panel</h2>
+                    <p class="white-text">This is your fourth panel</p>
+                </div>
+            </div>
             <!--  End of support-->
 
 

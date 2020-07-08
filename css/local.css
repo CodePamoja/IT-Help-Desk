@@ -12,6 +12,10 @@ tab:active {
     background-color: yellow;
 }
 
+.myfixednavheight {
+    height: 20vh;
+}
+
 #parallax {
     /* The image used */
     background-image: url(../images/interior-of-office-building-325229.jpg);
@@ -22,43 +26,6 @@ tab:active {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#boxes {
-    padding-top: 50px;
-}
-
-.richi {
-    background-image: url(images/home/woman-working-online-from-home-RDFQZW9.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
-    opacity: 0.7;
-    border-radius: 10px;
-}
-
-.text1 {
-    width: 33%;
-    float: left;
-    text-align: right;
-}
-
-.text2 {
-    width: 33%;
-    float: left;
-    text-align: center;
-}
-
-.text3 {
-    width: 33%;
-    float: left;
-    text-align: left;
-}
-
-::-webkit-input-placeholder {
-    /* Edge */
-    color: #666666;
 }
 
 .search_box {

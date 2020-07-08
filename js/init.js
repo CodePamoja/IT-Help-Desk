@@ -7,7 +7,8 @@ $('document').ready(function() {
     $('.collapsible').collapsible();
     $('.carousel').carousel();
     $('.carousel.carousel-slider').carousel({
-        fullWidth: true
+        fullWidth: true,
+        indicators: true
     });
     $('.parallax').parallax();
     $('.tooltipped').tooltip();
