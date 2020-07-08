@@ -28,6 +28,31 @@ tab:active {
     background-size: cover;
 }
 
+.background_login {
+    /* The image used */
+    background-image: url(../images/join-us-scrabbles-letters-3127880.jpg);
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.background_signin {
+    /* The image used */
+    background-image: url(../images/interior-of-office-building-325229.jpg);
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .search_box {
     /*background-image: url("../images/search-512.png");
     background-size: 24px;
