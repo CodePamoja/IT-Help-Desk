@@ -8,10 +8,6 @@
     color: aliceblue;
 }
 
-tab:active {
-    background-color: yellow;
-}
-
 .myfixednavheight {
     height: 20vh;
 }
@@ -30,7 +26,7 @@ tab:active {
 
 .background_login {
     /* The image used */
-    background-image: url(../images/join-us-scrabbles-letters-3127880.jpg);
+    background-image: url(../images/woman-in-black-blazer-sitting-on-black-office-chair-3727464.jpg);
     /* Set a specific height */
     min-height: 500px;
     /* Create the parallax scrolling effect */
@@ -38,12 +34,12 @@ tab:active {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: ;
+    height: 100vh;
 }
 
 .background_signin {
     /* The image used */
-    background-image: url(../images/interior-of-office-building-325229.jpg);
+    background-image: url(../images/abstract-art-artistic-background-1103970.jpg);
     /* Set a specific height */
     min-height: 500px;
     /* Create the parallax scrolling effect */
@@ -69,4 +65,24 @@ tab:active {
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
+}
+
+.btn_gleen:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+:-ms-input-placeholder {
+    color: black;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1;
+    /* Firefox */
 }
