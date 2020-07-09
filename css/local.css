@@ -38,7 +38,7 @@ tab:active {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: ;
 }
 
 .background_signin {
@@ -54,11 +54,8 @@ tab:active {
 }
 
 .search_box {
-    /*background-image: url("../images/search-512.png");
+    background-image: url("../images/search-512.png");
     background-size: 24px;
-    background-repeat: no-repeat;
-     background-position: right;
-    */
     color: black;
     font-weight: bold;
     text-decoration-color: black;
@@ -69,4 +66,7 @@ tab:active {
     border-style: solid;
     border-width: 1px;
     border-color: black;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
 }
