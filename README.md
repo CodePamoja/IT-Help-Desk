@@ -38,6 +38,7 @@
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a class="blue-text"><i class="fas fa-envelope-open"></i> something@gmail.com</a></li>
                         <li><a class="blue-text"><i class="fas fa-phone"></i> +25479084376</a></li>
+                        <li><a class="blue-text"><i class="fas fa-headset"></i> Live chat</a></li>
                     </ul>
 
 
@@ -46,7 +47,7 @@
                 <div class="nav-content">
                     <ul class="tabs tabs-transparent">
 
-                        <li class="tab"><a class="blue-text tabone" onclick="this.parentElement.style.background-color = 'blue';" onclick="this.parentElement.style.background-color = 'blue'" href="#home">Home</a></li>
+                        <li class="tab" id="myhome"><a class="blue-text tabone" href="#home">Home</a></li>
                         <li class="tab"><a class="blue-text tabone getsupport" href="#getsupport">Get Help Now</a></li>
 
                         <li class="tab"><a class="blue-text tabone" href="#supportplans">Support Plans</a></li>
@@ -90,96 +91,72 @@
                 </div>
 
 
-                <div class="col xl12 l12 m12 s12 white" style="height: 450px;">
+                <div class="col xl12 l12 m12 s12 white" style="padding-bottom: 50px;">
                     <h4 class="center-align" style="margin-bottom: 50px;">Frequently asked questions <i class="material-icons">chat</i></h4>
 
                     <div class="row ">
 
                         <!-- card  house-->
-                        <div class="row" style="margin-left: 5%;margin-right: 5%;margin-bottom: 50px;">
+                        <div class="row">
 
 
                             <!-- Cards for workin fqA-->
-                            <div class="col xl3 l3 m3 s12 hoverable z-depth-5 waves-effect waves-block waves-teal card">
-                                <div class="row " style="margin-bottom: 0%;">
-                                    <div class="card-image col xl4 l4 m4 s4 blue">
+                            <div class="col xl5 l5 m5 s12 offset-xl1 offset-l1 offset-m1 hoverable z-depth-5 waves-effect waves-block waves-teal card">
+                                <div class="row ">
 
-                                        <i class="fas fa-cogs fa-4x" style="margin-top: 5px;margin-bottom: 5px;"></i>
-                                    </div>
-                                    <div class="card-content col xl8 l8 m8 s8">
-                                        <p class=""><a href=""> Remote Working ?</a></p>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                            <div class="col xl3 l3 m3 s12 offset-xl1 offset-l1 hoverable z-depth-5 waves-effect waves-block waves-teal card">
-                                <div class="row " style="margin-bottom: 0%;">
-                                    <div class="card-image col xl4 l4 m4 s4 blue">
-
-                                        <i class="fas fa-tv fa-4x" style="margin-top: 5px;margin-bottom: 5px;"></i>
-                                    </div>
-                                    <div class="card-content col xl8 l8 m8 s8">
-                                        <p class="">Office Set up</p>
+                                    <div class="card-content col s12">
+                                        <p><a>Do I need to install an anti-virus on my Windows 10?</a> <button class="btn btn-flat" onclick="document.getElementById('one').classList.toggle('hide')" style="float: right;"> <i class="material-icons blue-text">add</i></button></p>
+                                        <p class="hide" id="one">Windows 10 has an in-built Windows Defender, a good enough antivirus protection plan for basic cybersecurity protection. With Microsoft’s frequent updates, the Windows Defender utility is equipped with new data
+                                            definitions (virus signatures) to keep up with the latest and more potent threats.</p>
                                     </div>
 
 
                                 </div>
                             </div>
-                            <div class="col xl3 l3 m3 s12 offset-xl1 offset-l1 hoverable z-depth-5 waves-effect waves-block waves-teal card">
-                                <div class="row " style="margin-bottom: 0%;">
-                                    <div class="card-image col xl4 l4 m4 s4 blue">
-
-                                        <i class="fas fa-rss fa-4x" style="margin-top: 5px;margin-bottom: 5px;"></i>
-                                    </div>
-                                    <div class="card-content col xl8 l8 m8 s8">
-                                        <p class="">Internet Option</p>
+                            <div class="col xl5 l5 m5 s12 hoverable z-depth-5 waves-effect waves-block waves-teal  card" style="margin-left: 5px;">
+                                <div class="row">
+                                    <div class="card-content col s12">
+                                        <p><a>How do I clear cookies?</a> <button class="btn btn-flat" onclick="document.getElementById('two').classList.toggle('hide')" style="float: right;"> <i class="material-icons blue-text">add</i></button> </p>
+                                        <p class="hide" id="two">Open Chrome browser > At the top right, click More > Click More tools > Clear browsing data > At the top, choose a time range > To delete everything, select All time > Next to "Cookies and other site data" and "Cached
+                                            images and files," check the boxes > Click Clear data. Open Microsoft Edge > select Settings and more > Settings > Privacy and services > Under Clear browsing data, select Choose what to clear > Under Time range,
+                                            choose a time range > Select Cookies and other site data > select Clear now.
+                                        </p>
                                     </div>
 
 
                                 </div>
                             </div>
+
                             <!-- Cards for workin fqA-->
                         </div>
 
                         <!-- card house-->
+
+
 
                         <!-- card  house-->
-                        <div class="" style="margin-left: 5%;margin-right: 5%;">
+                        <div class="row">
 
 
                             <!-- Cards for workin fqA-->
-                            <div class="col xl3 l3 m3 s12 hoverable z-depth-5 waves-effect waves-block waves-teal  card">
-                                <div class="row " style="margin-bottom: 0%;">
-                                    <div class="card-image col xl4 l4 m4 s4 blue ">
-                                        <i class="fas fa-users fa-4x" style="margin-top: 5px;margin-bottom: 5px;"></i> </div>
-                                    <div class="card-content col xl8 l8 m8 s8">
-                                        <p class="">Zoom Set up</p>
+                            <div class="col xl5 l5 m5 s12 offset-xl1 offset-l1 hoverable z-depth-5 waves-effect waves-block waves-teal card">
+                                <div class="row">
+
+                                    <div class="card-content col s12">
+                                        <p><a>What are cookies ?</a> <button class="btn btn-flat" onclick="document.getElementById('three').classList.toggle('hide')" style="float: right;"> <i class="material-icons blue-text">add</i></button> </p>
+                                        <p class="hide" id="three">Cookies are files that contain little data like a username and password which are exchanged between a user's computer and a web server to help identify specific users and improve their browsing experience.</p>
                                     </div>
 
 
                                 </div>
                             </div>
-                            <div class="col xl3 l3 m3 s12 offset-xl1 offset-l1 hoverable z-depth-5 waves-effect waves-block waves-teal card">
-                                <div class="row" style="margin-bottom: 0%;">
-                                    <div class="card-image col xl4 l4 m4 s4 blue ">
-
-                                        <i class="fas fa-envelope fa-4x" style="margin-top: 5px;margin-bottom: 5px;"></i> </div>
-                                    <div class="card-content col xl8 l8 m8 s8">
-                                        <p class="">Suspicious Emails</p>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                            <div class="col xl3 l3 m3 s12 offset-xl1 offset-l1 hoverable z-depth-5 waves-effect waves-block waves-teal card">
-                                <div class="row " style="margin-bottom: 0%;">
-                                    <div class="card-image col xl4 l4 m4 s4 blue">
-
-                                        <i class="fab fa-windows fa-4x" style="margin-top: 5px;margin-bottom: 5px;"></i>
-                                    </div>
-                                    <div class="card-content col xl8 l8 m8 s8">
-                                        <p class="">Window activation</p>
+                            <div class="col xl5 l5 m5 s12  hoverable z-depth-5 waves-effect waves-block waves-teal card" style="margin-left: 5px;">
+                                <div class="row ">
+                                    <div class="card-content col s12">
+                                        <p><a>How do I install a printer having lost my Drivers Cd?</a> <button class="btn btn-flat" onclick="document.getElementById('four').classList.toggle('hide')" style="float: right;"> <i class="material-icons blue-text">add</i></button>                                            </p>
+                                        <p class="hide" id="four">A missing printer installation disk or disc is not the end of the world. Visit your Printer manufacturer’s website as most printer manufacturers are providing free up-to-date downloads for the software programs
+                                            and updated drivers too. If you still want a CD, you'll need to contact the printer manufacturer to order a new installation disk.
+                                        </p>
                                     </div>
 
 
@@ -191,46 +168,49 @@
                         <!-- card house-->
 
 
-                    </div>
+                        <!-- card  house-->
+                        <div class="row">
 
-                </div>
+
+                            <!-- Cards for workin fqA-->
+                            <div class="col xl5 l5 m5 s12 offset-xl1  offset-l1 hoverable z-depth-5 waves-effect waves-block waves-teal card">
+                                <div class="row">
+
+                                    <div class="card-content col s12">
+                                        <p><a>How do is set up Google meet?</a> <button class="btn btn-flat" onclick="document.getElementById('five').classList.toggle('hide')" style="float: right;"> <i class="material-icons blue-text">add</i></button> </p>
+                                        <p class="hide" id="five">In a web browser of your choice, enter the link https://meet.google.com > Sign into your google account > Click on start or join a meeting > Create a name for your meeting > Click join now > To add someone to the
+                                            meeting, choose the option share joining info.</p>
+                                    </div>
 
 
-                <div class="col xl7 l7 m7 white" style="height: 400px;">
-                    <h4 class="center"> Who Are We</h4>
-                    <p class="center">Our approach to business enables us to design innovative solutions with a commitment to results and customer satisfaction. We are Technology experts backed with vast experience and more than 15 years’ experience in managing IT projects.
-                        Our expertise draw on our core values of simplicity, creativity, independence, respect and openness to transform the latest technology into added-value services, enabling our customers realize real business value of their IT investment
-                        that includes achieving and maintaining competitive advantage, strengthening their market and revenue position and deliver support in solving business needs and challenges</p>
-                </div>
-                <div class="col xl5 l5 m5 s12 white" style="height: 400px;margin-bottom: 50px;">
-
-                    <div class="row ">
-                        <form class="col s12">
-                            <h4 class="center-align">Join Us</h4>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <i class="fas fa-envelope prefix"></i>
-                                    <input id="icon_prefix" type="email" class="validate">
-                                    <label for="icon_prefix">email</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <i class="fas fa-unlock-alt prefix"></i>
-                                    <input id="icon_telephone" type="password" class="validate">
-                                    <label for="icon_telephone">password</label>
                                 </div>
                             </div>
-                            <div class="col s12 btn">Login</div>
-                        </form>
+                            <div class="col xl5 l5 m5 s12  hoverable z-depth-5 waves-effect waves-block waves-teal card" style="margin-left: 5px;">
+                                <div class="row ">
+                                    <div class="card-content col s12">
+                                        <p><a>How do I set up Microsoft teams?</a> <button class="btn btn-flat" onclick="document.getElementById('six').classList.toggle('hide')" style="float: right;"> <i class="material-icons blue-text">add</i></button>                                            </p>
+                                        <p class="hide" id="six">Download and install the windows app on your computer > sign up for Teams before setting up your organization. When starting up a new organization, you will enter your email then select “next”, enter your first
+                                            and last names as well as the name of the organization and its location then click “Set up Teams”. To invite people to join your team, you will receive a mail with a link that can be sent to colleagues to join
+                                            your new team. </p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <!-- Cards for workin fqA-->
+                        </div>
+
+                        <!-- card house-->
+
+
+
                     </div>
 
-
-
                 </div>
+
+
                 <div class="col s12" style="margin-bottom: 100px;">
                     <h3 class="center-align">Guides and Tutorials</h3>
-                    <video class="responsive-video" style="width: 75%;margin-left:12%; margin-bottom: 50px;" controls>
-                        <source src="images/Close Up Video Of Green Leaves.mp4" type="video/mp4">
-                      </video>
 
 
 
@@ -287,44 +267,37 @@
 
 
                         <!-- Cards for workin fqA-->
-                        <div class="col xl3 l3 m3 s12 hoverable z-depth-5 waves-effect waves-block waves-teal card horizontal">
+                        <div class="col xl3 l3 m3 s12 hoverable z-depth-5 no-padding white">
+                            <p style="padding-left: 5%;padding-right: 5%;">How active directory works</p>
+                            <video class="responsive-video " controls>
+    
+                            <source src="images/Close Up Video Of Green Leaves.mp4" type="video/mp4">
+                              </video>
+                        </div>
 
-
-                            <div class="card-image"><i class="fas fa-file-pdf red-text darken-4 fa-2x"></i> </div>
-                            <div class="card-stacked">
-                                <div class="card-content">
-                                    <p><a href="">How to install zoom docs</a></p>
-                                </div>
-                            </div>
-
+                        <div class="col xl3 l3 m3 s12 offset-xl1 offset-l1 hoverable z-depth-5 no-padding  white">
+                            <p style="padding-left: 5%;padding-right: 5%;">How to install kali linux on virtualbox</p>
+                            <video class="responsive-video red" controls>
+    
+                            <source src="images/Close Up Video Of Green Leaves.mp4" type="video/mp4">
+                              </video>
 
 
                         </div>
-                        <div class="col xl3 l3 m3 s12 offset-xl1 offset-l1 hoverable z-depth-5 waves-effect waves-block waves-teal card horizontal">
+                        <div class="col xl3 l3 m3 s12 offset-xl1 offset-l1 hoverable no-padding z-depth-5 white">
 
-
-                            <div class="card-image"><i class="fas fa-file-pdf red-text darken-4 fa-2x"></i> </div>
-                            <div class="card-stacked">
-                                <div class="card-content">
-                                    <p><a href="">How to activate windows docs</a></p>
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <div class="col xl3 l3 m3 s12 offset-xl1 offset-l1 hoverable z-depth-5 waves-effect waves-block waves-teal card horizontal">
-
-
-                            <div class="card-image"><i class="fas fa-file-pdf red-text darken-4 fa-2x"></i> </div>
-                            <div class="card-stacked">
-                                <div class="card-content">
-                                    <p><a href="">Excel docs</a></p>
-                                </div>
-                            </div>
-
+                            <p style="padding-left: 5%;padding-right: 5%;">How to activate windows 10</p>
+                            <video class="responsive-video " controls>
+    
+                            <source src="images/Close Up Video Of Green Leaves.mp4" type="video/mp4">
+                              </video>
                         </div>
                         <!-- Cards for workin fqA-->
                     </div>
+
+                    <video class="responsive-video" style="width: 75%;margin-left:12%; margin-bottom: 50px;" controls>
+                        <source src="images/Close Up Video Of Green Leaves.mp4" type="video/mp4">
+                      </video>
 
                     <p class="center-align"><a class="btn">For more tutorials videos and documents</a></p>
 
@@ -345,25 +318,46 @@
 
 
         <!--  Get Support html and everything will be done here-->
-        <div id="getsupport" class="col s12 carousel carousel-slider center red" style="height: 80vh;">
-            <div class="carousel-fixed-item center">
-                <a class="btn waves-effect white grey-text darken-text-2">Create a ticket</a>
+        <div id="getsupport" class="col s12 " style="height: 80vh;">
+            <div class="row">
+                <h5 class="center-align">Need personal help ?</h5>
+                <div class="col xl4 l4 m4 s12" id="call_image">
+
+                </div>
+                <div class="col xl8 l8 m8 s12" id="call_text">
+                    <h5 class="center-align">Call Us</h5>
+                    <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget dolor nisi. Integer mollis neque eget interdum venenatis. Pellentesque nec maximus enim. Proin lacinia lectus id volutpat rutrum. Quisque vel ultrices purus, nec venenatis
+                        erat. Nam non eros vestibulum, faucibus lacus efficitur, dapibus mi. Etiam tincidunt posuere magna id euismod. Morbi eget commodo mi. Phasellus diam mauris, iaculis nec gravida vel, suscipit sit amet orci. Nam semper pulvinar eros,
+                        venenatis facilisis purus fermentum sed. Ut porttitor euismod neque non posuere. Vestibulum accumsan urna vitae mauris fringilla semper.</p>
+                    <p class="center-align"><a>+254719243456</a></p>
+                </div>
+                <div class="col xl8 l8 m12 s12"></div>
             </div>
-            <div class="carousel-item red white-text" href="#one!">
-                <h2>Need personal Help ?</h2>
-                <p class="white-text">.......</p>
+            <div class="row">
+                <div class="col xl8 l8 m8 s12 " id="call_text">
+                    <h5 class="center-align">Email Us</h5>
+                    <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget dolor nisi. Integer mollis neque eget interdum venenatis. Pellentesque nec maximus enim. Proin lacinia lectus id volutpat rutrum. Quisque vel ultrices purus, nec venenatis
+                        erat. Nam non eros vestibulum, faucibus lacus efficitur, dapibus mi. Etiam tincidunt posuere magna id euismod. Morbi eget commodo mi. Phasellus diam mauris, iaculis nec gravida vel, suscipit sit amet orci. Nam semper pulvinar eros,
+                        venenatis facilisis purus fermentum sed. Ut porttitor euismod neque non posuere. Vestibulum accumsan urna vitae mauris fringilla semper.</p>
+                    <p class="center-align"><a href="mailto:glenntedd@gmail.com" class="btn">Email us</a></p>
+                </div>
+                <div class="col xl4 l4 m4 s12" id="email_image">
+
+                </div>
+
             </div>
-            <div class="carousel-item amber white-text" href="#two!">
-                <h2>Second Panel</h2>
-                <p class="white-text">This is your second panel</p>
-            </div>
-            <div class="carousel-item green white-text" href="#three!">
-                <h2>Third Panel</h2>
-                <p class="white-text">This is your third panel</p>
-            </div>
-            <div class="carousel-item blue white-text" href="#four!">
-                <h2>Fourth Panel</h2>
-                <p class="white-text">This is your fourth panel</p>
+            <div class="row">
+                <div class="col xl4 l4 m4 s12" id="ticket_image">
+
+                </div>
+                <div class="col xl8 l8 m8 s12 " id="call_text">
+                    <h5 class="center-align">Create Ticket</h5>
+                    <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget dolor nisi. Integer mollis neque eget interdum venenatis. Pellentesque nec maximus enim. Proin lacinia lectus id volutpat rutrum. Quisque vel ultrices purus, nec venenatis
+                        erat. Nam non eros vestibulum, faucibus lacus efficitur, dapibus mi. Etiam tincidunt posuere magna id euismod. Morbi eget commodo mi. Phasellus diam mauris, iaculis nec gravida vel, suscipit sit amet orci. Nam semper pulvinar eros,
+                        venenatis facilisis purus fermentum sed. Ut porttitor euismod neque non posuere. Vestibulum accumsan urna vitae mauris fringilla semper.</p>
+                    <p class="center-align"><a class="btn">Create Ticket</a></p>
+                </div>
+                <div class="col xl8 l8 m12 s12"></div>
             </div>
         </div>
         <!--  End of support-->
@@ -397,8 +391,8 @@
                                 <p>Here is some more information about this product that is only revealed once clicked on.</p>
                             </div>
                             <div class="card-action">
-                                <a href="#">Purchase</a>
-                                <a class="right-align" href="#">90 days trial</a>
+                                <a href="#" class="btn btn-flat btn_gleen">Purchase</a>
+                                <a class="right-align btn" href="#">30 days trial</a>
                             </div>
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
@@ -417,8 +411,8 @@
                                 <p>Here is some more information about this product that is only revealed once clicked on.</p>
                             </div>
                             <div class="card-action">
-                                <a href="#">Purchase</a>
-                                <a class="right-align" href="#">60 days trial</a>
+                                <a class="right-align btn btn-flat btn_gleen" href="#">Purchase</a>
+                                <a class="right-align btn" href="#">30 days trial</a>
                             </div>
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
@@ -436,8 +430,8 @@
                                 <p>Here is some more information about this product that is only revealed once clicked on.</p>
                             </div>
                             <div class="card-action">
-                                <a href="#">Purchase</a>
-                                <a class="right-align" href="#">30 days trial</a>
+                                <a href="#" class="btn btn-flat btn_gleen">Purchase</a>
+                                <a class="right-align btn" href="#">30 days trial</a>
                             </div>
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>

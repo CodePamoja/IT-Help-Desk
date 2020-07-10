@@ -16,15 +16,3 @@ btn_login_page_opener.addEventListener("click", () => {
     page_signup.classList.add("hide");
 
 });
-
-mytab.forEach(element => {
-
-    element.addEventListener('click', () => {
-        var x = element.innerHTML;
-        if (x === "Home") {
-            element.parentNode.classList.add("hide");
-        } else {
-            element.parentNode.classList.remove("hide");
-        }
-    });
-});

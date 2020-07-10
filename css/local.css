@@ -14,7 +14,7 @@
 
 #parallax {
     /* The image used */
-    background-image: url(../images/interior-of-office-building-325229.jpg);
+    background-image: url(../images/homeone.jpg);
     /* Set a specific height */
     min-height: 500px;
     /* Create the parallax scrolling effect */
@@ -22,6 +22,28 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#call_image {
+    background-image: url(../images/caller.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+#email_image {
+    background-image: url(../images/email.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+#ticket_image {
+    background-image: url(../images/ticket.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+#call_text {
+    height: 300px;
 }
 
 .background_login {
