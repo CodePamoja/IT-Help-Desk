@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body>
+<body onload="document.getElementById('myhome').classList.add('hide')">
 
     <div class="row">
 
@@ -47,7 +47,7 @@
                 <div class="nav-content">
                     <ul class="tabs tabs-transparent">
 
-                        <li class="tab"><a class="blue-text tabone" onclick="this.parentElement.style.background-color = 'blue';" onclick="this.parentElement.style.background-color = 'blue'" href="#home">Home</a></li>
+                        <li class="tab" id="myhome"><a class="blue-text tabone" href="#home">Home</a></li>
                         <li class="tab"><a class="blue-text tabone getsupport" href="#getsupport">Get Help Now</a></li>
 
                         <li class="tab"><a class="blue-text tabone" href="#supportplans">Support Plans</a></li>
