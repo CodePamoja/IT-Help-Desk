@@ -111,4 +111,5 @@
 
 #questionschat:focus {
     border-style: none;
+    outline: none;
 }
