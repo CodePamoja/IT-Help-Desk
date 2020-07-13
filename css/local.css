@@ -108,3 +108,7 @@
     opacity: 1;
     /* Firefox */
 }
+
+#questionschat:focus {
+    border-style: none;
+}

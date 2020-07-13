@@ -38,7 +38,7 @@
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a class="blue-text"><i class="fas fa-envelope-open"></i> something@gmail.com</a></li>
                         <li><a class="blue-text"><i class="fas fa-phone"></i> +25479084376</a></li>
-                        <li><a class="blue-text"><i class="fas fa-headset"></i> Live chat</a></li>
+                        <li><a class="blue-text" onclick="document.querySelector('.chat').classList.toggle('hide')"><i class="fas fa-headset"></i> Live chat</a></li>
                     </ul>
 
 
@@ -588,6 +588,61 @@
         <!--  End of contact information-->
 
 
+        <div class="col xl3 l3 m3 chat red z-depth-5 green card no-padding" style="
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 350px;
+            height:450px;
+            padding-bottom: 5%;
+            border-style: none;
+          ">
+            <nav class="nav-extended blue" style="height: 120px;">
+                <div class="nav-wrapper" style="padding-left: 2%;padding-right: 2%; margin-bottom: 0px;">
+                    <a>Online</a>
+                    <a class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+                        <li> <a onclick="document.querySelector('.chat').classList.add('hide')" data-target="mobile-demo"><i class="material-icons"> close</i></a></li>
+                    </ul>
+                </div>
+                <div class="nav-content" style="padding-left: 5%;padding-right: 5%;">
+                    <p class="center-align">We are live and ready to chat with you now. Say something to start a live chat.</p>
+                </div>
+            </nav>
+            <div class="grey lighten-3" style="height: 280px;">
+
+                <div class="row" style="padding-left: 10px;">
+                    <div class="col s8  dewcis" style="margin-top: 5px;">
+                        <div class="row">
+                            <div class="col s3"><img src="images/people-sitting-beside-brown-wooden-desk-near-flat-screen-tv-1181355.jpg" width="32px" height="32px" class="circle"></div>
+                            <div class="col s9 blue lighten-3" style="margin-top: 5px;">
+                                <p class="center-align">
+                                    Welcome to DewCis Support. How can we help you ?</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <form class="col s12 yellow no-padding" style="
+            position: absolute;
+            top: 400px;
+            height: 50px;
+            border-style: solid;
+            border-width: 1px;
+            border-top-color: black;
+            border-left-color: white;
+            border-right-color: white;
+
+                   ">
+                <input class="browser-default" style="height: 50px;width: 100%;border-style: none;" id="questionschat" autocomplete="off" placeholder="Type here and press enter" id="first_name" type="text" class="validate">
+            </form>
+        </div>
 
 
     </div>
